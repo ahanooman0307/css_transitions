@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    transition: all 10s;
+}
+
+.container:hover{
+    transform: translateX(400px);
+  
+}
+
+
+.box{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: background-color 1s ease-out;
+    color: red;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.box2{
+width: 50px;
+height:50px;
+background-color: #00ffa2;
+transition: all 2s;
+}
+
+.box2:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(360deg);
+    background-color: blueviolet;
+    width: 600px;
+    height: 600px;
+}
